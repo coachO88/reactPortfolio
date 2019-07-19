@@ -19,6 +19,8 @@ height: 100%;
 .logo-img{
   height: 250px;
   padding-top: 5em;
+  width: 300px;
+  border-radius: 100%;
 }
 
 .banner-text {
@@ -101,4 +103,10 @@ height: 100%;
 .contact-list i{
   font-size: 66px;
   padding-right: 5rem;
+}
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
 }

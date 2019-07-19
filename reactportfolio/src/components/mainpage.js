@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { Grid, Cell } from 'react-mdl'; 
+import { Grid, Cell } from 'react-mdl';
+import Me from '../me.jpg'; 
 
 class MainPage extends Component{
     render(){
@@ -8,7 +9,7 @@ class MainPage extends Component{
             <Grid className = "mainpage-grid">
                 <Cell col ={12}>
                     <img
-                        src = "https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                        src = {Me}
                         alt = "logo"
                         className = "logo-img"
                     />
