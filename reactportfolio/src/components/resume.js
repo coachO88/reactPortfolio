@@ -4,6 +4,7 @@ import Me from '../me.jpg';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import References from './references';
 
 class Resume extends Component{
     render(){
@@ -22,7 +23,13 @@ class Resume extends Component{
                        <h2 style={{paddingTop: '2em'}}>Orlando Rangel</h2>
                        <h4 style={{color:'grey'}}>Full Stack Developer</h4>
                        <hr style={{borderTop: '3px solid #833fb2', width:'50%'}}/>
-                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                       <p>Computer Engineer/Full Stack Developer looking to find employement in related career fields.
+                           Proven ability to navigate multitasking in fast pac, deadline oriented
+                           position.  Highly adaptable and able to manage multiple tasks without 
+                           sacrificing quality.  A self-motivated individual with problem solving skills
+                           seeking to utilize experience, strong interpersonal skills, and
+                           exceptional work ethic in an organization that values dedication and result.  Bilingual-Spanish.
+                       </p>
                        <hr style={{borderTop: '3px solid #833fb2', width:'50%'}}/>
                        <h5>Address</h5>
                        <p>1432 Coyote Dr. Corona, CA. 92882</p>
@@ -31,6 +38,15 @@ class Resume extends Component{
                        <h5>Email Address</h5>
                        <p>rangel52088@gmail.com</p>
                        <hr style={{borderTop: '3px solid #833fb2', width:'50%'}}/>
+                       <h5>Key Skills</h5>
+                       <p>Communication</p>
+                       <p>Self-Motivated</p>
+                       <p>Time Management</p>
+                       <p>Team Player</p>
+                       <p>Leadership</p>
+                       <p>Technical Analysis</p>
+                       <p>Document Organization</p>
+                       <p>Spoken Language: Spanish (Fluent)</p>
                    </Cell>
                    <Cell className= "resume-right-col" col={8}>
                        <h2>Education</h2>
@@ -113,6 +129,11 @@ class Resume extends Component{
                        />
 
                        <Skills
+                       skills="NodeJS"
+                       progress={65}
+                       />
+
+                       <Skills
                        skills="Express"
                        progress={50}
                        />
@@ -125,6 +146,36 @@ class Resume extends Component{
                        <Skills
                        skills="React"
                        progress={65}
+                       />
+
+                       <hr style={{borderTop: '3px solid #e22947'}}/>
+
+                       <h2>References</h2>
+
+                       <References
+                       name="Edward Contreras"
+                       occupation="Special Investigator"
+                       company="U.S. State Department"
+                       address="P.O. Box 19091"
+                       cityAndState="Anaheim, CA. 92817"
+                       number="(714) 412-4769"
+                       email="1035econtreras@gmail.com"
+
+                       name2="Derek Wainstein"
+                       occupation2="Write Up Manager"
+                       company2="Fabtex Inc."
+                       address2="1202 W. Struck Ave."
+                       cityAndState2="Orange, CA. 92867"
+                       number2="(714) 222-6232"
+                       email2="derek.wainstein@fabtex.com"
+
+                       name3="Howard Crone"
+                       occupation3="Company Owner"
+                       company3="AAA Installations"
+                       address3="7416 Morning Hills Dr."
+                       cityAndState3="Eastvale, CA. 92880"
+                       number3="(714) 655-3382"
+                       email3="howardcrone11@gmail.com"
                        />
 
 
